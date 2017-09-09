@@ -1,0 +1,102 @@
+.cinemalist {
+  width: 100%;
+}
+.cinemalist h2 {
+  width: 15.2rem;
+  height: 2rem;
+  line-height: 2rem;
+  background-color: #e1e1e1;
+  font-size: 0.7rem;
+  padding-left: 0.8rem;
+  color: #636363;
+  font-weight: normal;
+  margin-bottom: 0.05rem;
+}
+.cinemaItem {
+  width: 16rem;
+  height: 6.05rem;
+  background-color: #fff;
+  border-bottom: 0.05rem solid #e1e1e1;
+  position: relative;
+  background: url('../img/signin/signinyou.png') no-repeat 14.65rem 1.15rem;
+  background-size: 0.4rem 0.65rem;
+}
+.cinemaItem h3 {
+  position: absolute;
+  width: 9rem;
+  height: 0.8rem;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  left: 0.8rem;
+  top: 1.05rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: normal;
+  color: #333;
+}
+.cinemaItem .span1 {
+  position: absolute;
+  width: 3.5rem;
+  height: 0.75rem;
+  background-color: #51add0;
+  border-radius: 0.2rem;
+  line-height: 0.75rem;
+  color: #fff;
+  font-size: 0.5rem;
+  text-align: center;
+  left: 1.05rem;
+  top: 2.4rem;
+}
+.cinemaItem .span2 {
+  position: absolute;
+  width: 2.9rem;
+  height: 0.75rem;
+  background-color: #ff9658;
+  border-radius: 0.2rem;
+  line-height: 0.75rem;
+  color: #fff;
+  font-size: 0.5rem;
+  text-align: center;
+  left: 5.05rem;
+  top: 2.4rem;
+}
+.cinemaItem i {
+  position: absolute;
+  width: 0.95rem;
+  height: 0.95rem;
+  top: 0.9rem;
+}
+.cinemaItem .icon1 {
+  left: 10rem;
+  background: url('../img/cinema/a.png') no-repeat center;
+  background-size: 0.95rem 0.95rem;
+}
+.cinemaItem .icon2 {
+  left: 11.15rem;
+  background: url('../img/cinema/b.png') no-repeat center;
+  background-size: 0.95rem 0.95rem;
+}
+.cinemaItem .address {
+  width: 11.25rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  color: #ccc;
+  position: absolute;
+  left: 0.8rem;
+  top: 3.65rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cinemaItem .juli {
+  width: 2.75rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  color: #ccc;
+  position: absolute;
+  left: 0.8rem;
+  top: 4.75rem;
+}

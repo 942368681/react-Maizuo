@@ -1,0 +1,54 @@
+.sign {
+  width: 12.9rem;
+  height: 9.7rem;
+  margin: 4.15rem auto 0;
+}
+.sign .user {
+  position: relative;
+  width: 100%;
+  height: 1.45rem;
+  margin-bottom: 1.75rem;
+}
+.sign .password {
+  position: relative;
+  width: 100%;
+  height: 1.45rem;
+  margin-bottom: 3.15rem;
+}
+.sign a {
+  width: 8.15rem;
+  height: 1.9rem;
+  margin: 0 auto;
+  background-color: #fe8233;
+  border-radius: 1rem;
+  color: #fff;
+  line-height: 1.9rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+.signBg {
+  box-sizing: border-box;
+  width: 100%;
+  height: 0.6rem;
+  border: 0.05rem solid #c4c4c4;
+  border-top: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.sign input {
+  border: 0;
+  outline: none;
+  width: 12.3rem;
+  height: 1.45rem;
+  line-height: 1.45rem;
+  font-size: 0.7rem;
+  color: #555;
+  padding-left: 0.6rem;
+  background: none;
+}
+.sign input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999;
+}
