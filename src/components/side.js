@@ -30,6 +30,7 @@ class Side extends Component{
    };
    click = () => {
       this.props.sideBar(false)
+      this.props.titleReset();
    };
    render(){
       if (this.props.sideShow) {

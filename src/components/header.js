@@ -24,6 +24,7 @@ class Header extends Component {
       if (this.props.sideShow) {
          this.props.sideBar(false);
       }
+      this.props.titleReset();
    };
    render() {
       return (

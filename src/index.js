@@ -98,13 +98,19 @@ class Home extends Component{
          title:title
       });
    };
+   //titleReset
+   titleReset = () => {
+      this.setState({
+         title:'卖座电影'
+      });
+   };
    render(){
       return(
          <Router>
             <div>
-               <Header sideShow = {this.state.sideShow} sideBar = {this.sideBar} position = {this.state.position} title = {this.state.title} />
+               <Header sideShow = {this.state.sideShow} sideBar = {this.sideBar} position = {this.state.position} title = {this.state.title} titleReset = {this.titleReset} />
                <Mask sideShow = {this.state.sideShow} sideHidden = {this.sideHidden} />
-               <Side sideShow = {this.state.sideShow} sideBar = {this.sideBar} />
+               <Side titleReset = {this.titleReset} sideShow = {this.state.sideShow} sideBar = {this.sideBar} />
                   <Switch>
                      <Route exact path = "/" render = {() => {
                         return <HomePage changeActive = {this.changeActive} detailsData = {this.detailsData} />
